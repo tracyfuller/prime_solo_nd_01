@@ -11,5 +11,6 @@ $document.ready(function(){
         e.preventDefault()
         $(this).tab('show')
     });
+    console.log("javascript is loading.");
 
 });
