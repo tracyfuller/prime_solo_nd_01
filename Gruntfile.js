@@ -7,8 +7,8 @@ module.exports = function(grunt){
                 expand: true,
                 cwd: "node_modules/",
                 src: [
-                    "bootstrap/dis/css/bootstrap.min.css",
-                    "bootstrap/dis/css/bootstrap-theme.min.css",
+                    "bootstrap/dist/css/bootstrap.min.css",
+                    "bootstrap/dist/css/bootstrap-theme.min.css",
                     "bootstrap/dist/js/bootstrap.min.js",
                     "jquery/dist/jquery.min.js",
                     "jquery/dist/jquery.min.map"
