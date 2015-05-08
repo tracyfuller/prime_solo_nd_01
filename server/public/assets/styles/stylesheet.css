@@ -10,15 +10,16 @@ h3 {
     margin: 0;
     padding: 5px;
 }
-.container {
+.tab-content {
     background-color: #fff;
+    display: inline-block;
+    width: 100%;
 }
 #profilePic {
     width: 100%;
-    float: left;
+    float: bottom;
 }
 .productBucket {
-    background-color: #999999;
     padding: 0;
 }
 #slideCont {
