@@ -12,7 +12,7 @@
 
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1 class="text-center">Tracy Fuller Designs</h1>
         </div>
         <div role="tabpanel" class="container">
@@ -28,23 +28,29 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="about">
-
-                    <h2>Tracy Fuller <small>- Artist, Designer, Metalsmith, Nerd</small></h2>
-                    <div id="profile" class="col-md-4 col-sm-6 col-xs-12">
-                        <img id="profilePic" class="img-rounded" src="../assets/images/profile.png"/>
-                    </div>
-                    <div id="aboutDesc" class="col-sm-6 col-xs-12 col-lg-offset-1">
-                        <p>I've been obsessed with jewelry ever since my Grandmother bought me my first pair of pearl earrings to celebrate when I turned 10, even though I didn't have pierced ears yet! They had such a beautiful luster and I would stare endlessly at how the light would create a pinky sheen on the white pearls.</p>
-                        <p>It wasn't long before I asked for my first set of tools and started teaching myself how to create the designs that I would imagine myself wearing. Natural stones, semi-precious gems, Swarovski crystals and precious metals are my favorite materials to use. I am not satisfied until a design is something that I would be proud to wear. </p>
-                        <p>Visit me on Etsy!</p>
+                    <div class="aboutContainer">
+                        <h2>Tracy Fuller <small class="hidden-xs">- Artist, Designer, Metalsmith, Nerd</small></h2>
+                        <div class="row">
+                            <div id="profile" class="col-md-4 col-sm-6 col-xs-12">
+                                <img id="profilePic" class="img-circle hidden-xs" src="../assets/images/profile.png"/>
+                            </div>
+                            <div id="aboutDesc" class="col-sm-6 col-xs-12 col-lg-offset-1">
+                                <p>I've been obsessed with jewelry ever since my Grandmother bought me my first pair of pearl earrings to celebrate when I turned 10, even though I didn't have pierced ears yet! They had such a beautiful luster and I would stare endlessly at how the light would create a pinky sheen on the white pearls.</p>
+                             <p>It wasn't long before I asked for my first set of tools and started teaching myself how to create the designs that I would imagine myself wearing. Natural stones, semi-precious gems, Swarovski crystals and precious metals are my favorite materials to use. I am not satisfied until a design is something that I would be proud to wear. </p>
+                            <p>Visit me on Etsy!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div role="tabpanel" class="tab-pane" id="forgeLake">
-                    <h2 id="flsHeader" class="hidden-xs">ForgeLakeStudio.etsy.com</h2>
+                    <div class="shopDescription">
+                        <h2 id="flsHeader" class="hidden-xs">ForgeLakeStudio.etsy.com</h2>
+                        <p>With my Forge Lake Studio designs, I forge precious metals, gemstones and glass into wearable works of art. From the simple and everyday styles to dramatic statement pieces, my designs appeal to many fashion styles. Your wardrobe may change, but you'll always find something fun and beautiful to perk up and add detail to every look. </p>
+                    </div>
                     <div id="studs" class="productBucket col-lg-12">
                         <h3 class="product">Stud Style Earrings</h3>
-                        <div id="slideCont" class="row">
+                        <div class="slideCont row">
                             <div class="col-sm-6 col-xs-12">
                                 <img class="productImg" src="../assets/images/fls-studs.png">
                             </div>
@@ -55,7 +61,7 @@
                     </div>
                     <div id="hoops" class="productBucket col-lg-12">
                         <h3 class="product">Hoop Style Earrings</h3>
-                        <div id="slideCont" class="row">
+                        <div class="slideCont row">
                             <div class="col-sm-6 col-xs-12">
                                 <img class="productImg" src="../assets/images/fls-hoop.png">
                             </div>
@@ -66,7 +72,7 @@
                     </div>
                     <div id="hearts" class="productBucket col-lg-12">
                         <h3 class="product">Dangle Style Earrings</h3>
-                        <div id="slideCont" class="row">
+                        <div class="slideCont row">
                             <div class="col-sm-6 col-xs-12">
                                 <img class="productImg" src="../assets/images/fls-hearts.png">
                             </div>
@@ -77,7 +83,7 @@
                     </div>
                     <div id="necklace" class="productBucket col-lg-12">
                         <h3 class="product">Sterling Silver Necklaces</h3>
-                        <div id="slideCont" class="row">
+                        <div class="slideCont row">
                             <div class="col-sm-6 col-xs-12">
                                 <img class="productImg" src="../assets/images/fls-necklace.png">
                             </div>
@@ -89,7 +95,55 @@
                 </div>
 
                 <div role="tabpanel" class="tab-pane" id="bitsMonster">
-                    <p>Third Page - test</p>
+                    <div class="shopDescription">
+                        <h2 id="btsHeader" class="hidden-xs">BitsMonster.etsy.com</h2>
+                        <p>Some bits have byte! Have you ever looked at the breadboard of the circuits that run your life? All those shiny little information highways running across a field of green, or blue, or red. They're just plain cool. I was sitting in my mundane life in the tech industry when I found that I really wanted a way to show off my inner computer nerd. A chance find of some circuit boards that were being thrown away gave me the idea. Why not make jewelry out of them?</p>
+                        <p>I now try to source all of my circuit boards from recycled and reclaimed sources. Some were overstock, and headed for a landfill, some came out of junked computers, and all had a story to tell. </p>
+                    </div>
+                    <div id="pendant" class="productBucket col-lg-12">
+                        <h3 class="product">Colourful Pendant Necklaces</h3>
+                        <div class="slideCont row">
+                            <div class="col-sm-6 col-xs-12">
+                                <img class="productImg" src="../assets/images/bt-pink.png">
+                            </div>
+                            <div class="productDesc col-sm-6 col-xs-12">
+                                <p>I love making tiny stud earrings. These are a pair of small circle shapes that have been hammered and textured into a zebra stripe. You can find more of my favorite styles at Forge Lake Studio on Etsy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rainbow" class="productBucket col-lg-12">
+                        <h3 class="product">Long Layered Necklaces</h3>
+                        <div class="slideCont row">
+                            <div class="col-sm-6 col-xs-12">
+                                <img class="productImg" src="../assets/images/bt-rainbow.png">
+                            </div>
+                            <div class="productDesc col-sm-6 col-xs-12">
+                                <p>I love making tiny stud earrings. These are a pair of small circle shapes that have been hammered and textured into a zebra stripe. You can find more of my favorite styles at Forge Lake Studio on Etsy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="resistor" class="productBucket col-lg-12">
+                        <h3 class="product">Reclaimed Resistor Earrings</h3>
+                        <div class="slideCont row">
+                            <div class="col-sm-6 col-xs-12">
+                                <img class="productImg" src="../assets/images/bt-resistor.png">
+                            </div>
+                            <div class="productDesc col-sm-6 col-xs-12">
+                                <p>I love making tiny stud earrings. These are a pair of small circle shapes that have been hammered and textured into a zebra stripe. You can find more of my favorite styles at Forge Lake Studio on Etsy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="roundCircuit" class="productBucket col-lg-12">
+                        <h3 class="product">Circuit Board Earrings</h3>
+                        <div class="slideCont row">
+                            <div class="col-sm-6 col-xs-12">
+                                <img class="productImg" src="../assets/images/bt-round.png">
+                            </div>
+                            <div class="productDesc col-sm-6 col-xs-12">
+                                <p>I love making tiny stud earrings. These are a pair of small circle shapes that have been hammered and textured into a zebra stripe. You can find more of my favorite styles at Forge Lake Studio on Etsy.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

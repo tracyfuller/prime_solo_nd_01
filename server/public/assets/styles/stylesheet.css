@@ -1,7 +1,11 @@
 body {
-    background-color: #DDDDDD;
+    background-color: #fff;
     margin: 20px;
     
+}
+h1{
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
 h3 {
     background-color: #444444;
@@ -10,19 +14,29 @@ h3 {
     margin: 0;
     padding: 5px;
 }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #b1cedd;
+}
 .tab-content {
-    background-color: #fff;
+    background-color: #b1cedd;
     display: inline-block;
     width: 100%;
 }
 #profilePic {
     width: 100%;
-    float: bottom;
+    height: auto;
+
+}
+.aboutContainer {
+    padding: 20px;
+}
+.shopDescription {
+    padding: 20px;
 }
 .productBucket {
     padding: 0;
 }
-#slideCont {
+.slideCont {
     padding: 20px;
     display: none;
 }
